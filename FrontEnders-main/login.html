@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnders</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="container">
+		<!--Nav e Header-->
+        <header class="head my-3">
+            <nav class="navbar navbar-expand-lg navbar-light head__custom-nav">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="img/rocket-ship-svgrepo-com.png" alt="logotipo">
+                    <span>FRONTENDERS</span>
+                </a>
+                <button class="navbar-toggler bg-danger " type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-light navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mr-">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="form-cadastro.html">Cadastre-se</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="serviço.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item btn-login">
+                            <a class="btn  text-uppercase btn-success ml-lg-5" href="login.html">Login</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <form class="main-login p-5">
+        <div class="left-login">
+            <h1>Faça login <br> e entre na nossa comunidade!</h1>
+            <img src="img/astro no espaço.svg" class="left-login-img" alt="">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <div class="textfield">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="password" required maxlength="10">
+                </div>
+                <button class="btn-login">Entrar</button>
+                <a href="recuperacao-senha.html">Esqueceu sua senha?</a>
+                <p>Não tem uma conta? <a href="form-cadastro.html">Cadastre-se aqui.</a></p>
+            </div>
+        </div>
+    </form>
+    <footer class="container-fluid text-white bg-dark">
+      <div class="row-footer pt-5 pb-5">
+        <div class="icon-todos" >
+        <i class="fa-solid fa-copyright">  </i>
+        <p class="text-footer">Todos os direitos reservados</p> 
+        </div>
+        <div class="info-footer ">
+        <h4 class="title-footer"> Informações</h4>
+        <a href="termodeuso.html"><p class="text-info">Termo De Uso </p></a>
+        </div>
+    
+        <div class="info-footer"> 
+        <h4> Fronts.me</h4>
+        <a class="text-info" href="contato.html"><p > Sobre a Fronts</p></a>
+        <a href="contato.html"><p class="text-info">Contato</p></a>
+        <a href="serviço.html"><p class="text-info" > Planos</p></a>
+        </div>
+    
+        <div class="info-footer-redes-socias" >
+        <h4  > Nossas Redes Socias</h4>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    
+    
+      </div>
+    
+    </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+        </script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+        </script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+        </script> 
+        <script src="script/script.js"></script>
+        <script src="https://kit.fontawesome.com/96367fad0f.js" crossorigin="anonymous"></script>
+</body>
+</html>
